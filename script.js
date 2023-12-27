@@ -18,4 +18,6 @@ let square = function() {
     };
 }
 
+container.setAttribute('style', 'display: flex');
+
 square();
