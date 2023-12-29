@@ -10,3 +10,7 @@ body {
     margin: 10px 0px 22px 0px;
     width: 10%;
 }
+
+#box {
+    width: 80%;
+}

@@ -10,7 +10,7 @@ for (let i = 1; i <= 16; i++) {
         let newDiv = document.createElement('div');
          newDiv.classList.add('square');
          column.appendChild(newDiv);
-         newDiv.setAttribute('style', 'border: 1px solid black; width: 40px; height: 40px;');
+         newDiv.setAttribute('style', 'border: 1px solid black; width: 2em; height: 2em;');
 
          newDiv.addEventListener('mouseover', function() {
             newDiv.style.backgroundColor = 'blue';
@@ -42,7 +42,7 @@ btn.addEventListener('click', function() {
                 let newDiv = document.createElement('div');
                  newDiv.classList.add('square');
                  column.appendChild(newDiv);
-                 newDiv.setAttribute('style', 'border: 1px solid black; width: 40px; height: 40px;');
+                 newDiv.setAttribute('style', 'border: 1px solid black; width: 2em; height: 2em;');
         
                  newDiv.addEventListener('mouseover', function() {
                     newDiv.style.backgroundColor = 'blue';
